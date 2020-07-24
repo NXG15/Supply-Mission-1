@@ -66,7 +66,7 @@ function draw() {
 function keyPressed() {
  if (keyCode === DOWN_ARROW) {
 	packageBody.isStatic = false
-	packageBody.restitution = 0.4
+	packageBody.restitution = 0.6
 
   }
   else{
